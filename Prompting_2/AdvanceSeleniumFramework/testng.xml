@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AdvanceSeleniumFrameworkSuite" parallel="false">
+    <test name="LoginTests">
+        <classes>
+            <class name="com.salesforce.automation.tests.LoginValidTest"/>
+            <class name="com.salesforce.automation.tests.LoginInvalidTest"/>
+        </classes>
+    </test>
+</suite>

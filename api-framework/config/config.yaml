@@ -1,0 +1,20 @@
+qa:
+  base_url: https://reqres.in/api
+  timeout: 10
+  verify_ssl: true
+  retry_count: 3
+  retry_backoff: 1.0
+
+stage:
+  base_url: https://reqres.in/api
+  timeout: 15
+  verify_ssl: true
+  retry_count: 5
+  retry_backoff: 2.0
+
+development:
+  base_url: http://localhost:3000
+  timeout: 10
+  verify_ssl: false
+  retry_count: 1
+  retry_backoff: 1.0
