@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker API Suite">
+    <test name="Booking API Regression">
+        <classes>
+            <class name="com.booker.qa.BookingApiTests"/>
+        </classes>
+    </test>
+</suite>
